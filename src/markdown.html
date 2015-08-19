@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS PADJUST Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>STATS PADJUST Extension Command</h1>
+
+<p>Compute adjusted p values using one or more adjustment types
+for multiple tests.</p>
+<div class="syntax">
+<p>STATS PADJUST 
+DSNAMES=<em>variable</em> DSPVALUES=<em>variable</em>
+or<br/>
+NAMELIST = <em>quoted list of names</em> PLIST = <em>list of p values</em><br/>
+METHOD=FDR HOLM HOCHBERG HOMMEL BY BONFERRONI
+NTESTS=<em>number</em></p>
+
+<p>/OUTPUT PLOT=YES<sup>&#42;&#42;</sup> or NO.</p>
+
+<p>/HELP</p>
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>STATS GET R /HELP.  prints this information and does nothing else.</p>
+
+<pre class="example"><code>STATS PADJUST NAMELIST=&quot;x&quot; &quot;y&quot; &quot;z&quot; PLIST=.001 .005 .05.
+</code></pre>
+
+<p>The input for this command is either from the active dataset or
+specified on the command line.  For dataset input, specify the
+name of a variable holding a label for each p value as <strong>DSNAMES</strong>
+and the name of the variable holding the p values as <strong>DSPVALUES</strong>.</p>
+
+<p>For input on the command line, specify the pvalues to <strong>PLIST</strong>
+and, optionally, specify a list of names to <strong>NAMELIST</strong>.  The names
+should be quoted.</p>
+
+<p>Specify the methods to be used as <strong>METHOD</strong>.  The choices are</p>
+
+<ul>
+<li><strong>FDR</strong> is Benjamini-Hochberg FDR and is the default</li>
+<li><strong>HOLM</strong> is Holm</li>
+<li><strong>HOMMEL</strong> is Hommel</li>
+<li><strong>HOCHBERG</strong> is Hochberg</li>
+<li><strong>BY</strong> is Benjamini-Yekutieli</li>
+<li><strong>BONFERRONI</strong> is Bonferroni.</li>
+</ul>
+
+<p><strong>FDR</strong> and <strong>BY</strong> are used to control the false discovery rate, which is
+the expected proportion of false positives among the hypotheses
+that are rejected.  The other methods are used to control the
+familywise error rate and are more conservative.  The distinction
+becomes more important as the number of tests grows.
+Hochberg and Hommel assume that the tests are independent or
+are not negatively correlated.</p>
+
+<p>By default, the number of tests is assumed to be the
+same as the number of p values supplied.  However, you
+can use NTESTS to set a larger number.  This assumes that
+the omitted p values are either larger than any of the 
+included ones (Bonferroni and Holm) or are equal to 1.</p>
+
+<h2>OUTPUT</h2>
+
+<p><strong>PLOT</strong> specifies whether or not to produce a plot of the 
+adjusted p values against the unadjusted ones.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
