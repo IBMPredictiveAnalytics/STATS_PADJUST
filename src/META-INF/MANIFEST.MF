@@ -1,0 +1,17 @@
+Name: STATS PADJUST
+Dialog-Specs: STATS_PADJUST.spd
+Command-Specs: STATS_PADJUST.xml
+Code-Files: STATS_PADJUST.R
+Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Summary: Calculate p-values adjusted for multiple testing
+Description: This command calculates adjusted p values that account fo
+ r multiple testing.  It includes false discovery rate and family-wise
+  error rate adjustments.  The input is a dataset of p values or a lis
+ t of values given in the command.
+Author: JKP, IBM SPSS
+Version: 1.0.4
+Product-Version: 18
+Date: 4/17/14
+Categories: statistics FDR p-value
+Plugins: R
+Translation-Catalogues: lang
