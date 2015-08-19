@@ -1,0 +1,118 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: STATS_PADJUST.R:81
+msgid "P"
+msgstr ""
+"P"
+
+#: STATS_PADJUST.R:81
+msgid "Benjamini-Hochberg"
+msgstr ""
+"Benjamini-Hochberg"
+
+#: STATS_PADJUST.R:81
+msgid "Holm"
+msgstr ""
+"Holm"
+
+#: STATS_PADJUST.R:81
+msgid "Hochberg"
+msgstr ""
+"Hochberg"
+
+#: STATS_PADJUST.R:82
+msgid "Hommel"
+msgstr ""
+"Hommel"
+
+#: STATS_PADJUST.R:82
+msgid "Bonferroni"
+msgstr ""
+"Bonferroni"
+
+#: STATS_PADJUST.R:83
+msgid "Benjamini-Yekutieli"
+msgstr ""
+"Benjamini-Yekutieli"
+
+#: STATS_PADJUST.R:94
+msgid "Adjust P Values"
+msgstr ""
+"Ajustement des valeurs P"
+
+#: STATS_PADJUST.R:95
+msgid "Adjust P Values: Warnings"
+msgstr ""
+"Ajustement des valeurs P : Avertissements"
+
+#: STATS_PADJUST.R:106
+msgid "Invalid combination of probability and name arguments"
+msgstr ""
+"Combinaison non valide d'arguments de nom et de probabilité"
+
+#: STATS_PADJUST.R:119
+msgid "The lengths of the names and p-values lists are different"
+msgstr ""
+"La longueur des listes de valeurs P et de noms est différente."
+
+#: STATS_PADJUST.R:145
+msgid "NA"
+msgstr ""
+"NA"
+
+#: STATS_PADJUST.R:146
+#: STATS_PADJUST.R:148
+msgid "Adjusted P Values"
+msgstr ""
+"Valeurs P ajustées"
+
+#: STATS_PADJUST.R:151
+msgid "Number of tests = %s\nResults computed by R p.adjust function"
+msgstr ""
+"Nombre de tests = %s\nRésultats calculés à l'aide de la fonction R p.adjust."
+
+#: STATS_PADJUST.R:159
+msgid "Adjusted P values"
+msgstr ""
+"Valeurs P ajustées"
+
+#: STATS_PADJUST.R:160
+msgid "Unadjusted P Values"
+msgstr ""
+"Valeurs P non ajustées"
+
+#: STATS_PADJUST.R:161
+msgid "P Values"
+msgstr ""
+"Valeurs P"
+
+#: STATS_PADJUST.R:196
+msgid "End of procedure"
+msgstr ""
+"Fin de la procédure"
+
+#: STATS_PADJUST.R:225
+msgid "Message Number"
+msgstr ""
+"Numéro de message"
+
+
