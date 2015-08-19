@@ -1,0 +1,118 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: STATS_PADJUST.R:81
+msgid "P"
+msgstr ""
+"P"
+
+#: STATS_PADJUST.R:81
+msgid "Benjamini-Hochberg"
+msgstr ""
+"Benjamini-Hochberg"
+
+#: STATS_PADJUST.R:81
+msgid "Holm"
+msgstr ""
+"Holm"
+
+#: STATS_PADJUST.R:81
+msgid "Hochberg"
+msgstr ""
+"Hochberb"
+
+#: STATS_PADJUST.R:82
+msgid "Hommel"
+msgstr ""
+"Hommel"
+
+#: STATS_PADJUST.R:82
+msgid "Bonferroni"
+msgstr ""
+"Bonferroni"
+
+#: STATS_PADJUST.R:83
+msgid "Benjamini-Yekutieli"
+msgstr ""
+"Benjamini-Yekutieli"
+
+#: STATS_PADJUST.R:94
+msgid "Adjust P Values"
+msgstr ""
+"P 값 조정"
+
+#: STATS_PADJUST.R:95
+msgid "Adjust P Values: Warnings"
+msgstr ""
+"P 값 조정: 경고"
+
+#: STATS_PADJUST.R:106
+msgid "Invalid combination of probability and name arguments"
+msgstr ""
+"확률 및 이름 인수의 올바르지 않은 조합"
+
+#: STATS_PADJUST.R:119
+msgid "The lengths of the names and p-values lists are different"
+msgstr ""
+"이름 및 P 값 목록의 길이가 서로 다릅니다."
+
+#: STATS_PADJUST.R:145
+msgid "NA"
+msgstr ""
+"NA"
+
+#: STATS_PADJUST.R:146
+#: STATS_PADJUST.R:148
+msgid "Adjusted P Values"
+msgstr ""
+"수정 P 값"
+
+#: STATS_PADJUST.R:151
+msgid "Number of tests = %s\nResults computed by R p.adjust function"
+msgstr ""
+"검정 수 = %s\nR p.adjust f 함수에 의해 계산된 결과"
+
+#: STATS_PADJUST.R:159
+msgid "Adjusted P values"
+msgstr ""
+"수정 P 값"
+
+#: STATS_PADJUST.R:160
+msgid "Unadjusted P Values"
+msgstr ""
+"수정되지 않은 P 값"
+
+#: STATS_PADJUST.R:161
+msgid "P Values"
+msgstr ""
+"P 값"
+
+#: STATS_PADJUST.R:196
+msgid "End of procedure"
+msgstr ""
+"프로시저 끝"
+
+#: STATS_PADJUST.R:225
+msgid "Message Number"
+msgstr ""
+"메시지 번호"
+
+
