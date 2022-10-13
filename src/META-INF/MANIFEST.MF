@@ -1,4 +1,5 @@
 Name: STATS PADJUST
+Display-Name: P-Values Adjusted for Multiple Testing
 Dialog-Specs: STATS_PADJUST.spd
 Command-Specs: STATS_PADJUST.xml
 Code-Files: STATS_PADJUST.R
@@ -15,3 +16,4 @@ Date: 4/17/14
 Categories: statistics FDR p-value
 Plugins: R
 Translation-Catalogues: lang
+Product-Version-Maximum: 99
